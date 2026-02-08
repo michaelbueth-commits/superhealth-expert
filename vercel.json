@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/nahrungsergaenzung", "dest": "/nahrungsergaenzung/index.html" },
+    { "src": "/nahrungsergaenzung/vitamin-d3", "dest": "/nahrungsergaenzung/vitamin-d3/index.html" },
+    { "src": "/nahrungsergaenzung/magnesium", "dest": "/nahrungsergaenzung/magnesium/index.html" },
+    { "src": "/nahrungsergaenzung/omega-3", "dest": "/nahrungsergaenzung/omega-3/index.html" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
