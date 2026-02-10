@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wirkstoff-Datenbank | 500+ Nährstoffe & Heilpflanzen | SuperHealth.expert</title>
+    <meta name="description" content="Umfassende Wirkstoff-Datenbank: Vitamine, Mineralien, Kräuter, Aminosäuren. Wissenschaftlich fundiert mit Studien & Quellen.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-900">
+    <!-- Navigation -->
+    <nav class="sticky top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/de/" class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold text-slate-900">SuperHealth</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/de/wirkstoffe/" class="text-primary-600 font-medium">Wirkstoffe</a>
+                    <a href="/de/nahrungsergaenzung/" class="text-slate-600 hover:text-primary-600 transition-colors">Supplements</a>
+                    <a href="/de/blog/" class="text-slate-600 hover:text-primary-600 transition-colors">Blog</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary-50 to-emerald-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-medium mb-4">Wachsende Datenbank</span>
+            <h1 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Wirkstoff-Datenbank</h1>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto">500+ Nährstoffe, Vitamine, Mineralien, Kräuter & Heilpflanzen. Wissenschaftlich fundiert, verständlich erklärt.</p>
+            
+            <!-- Search -->
+            <div class="mt-8 max-w-xl mx-auto">
+                <input type="text" placeholder="Wirkstoff suchen... (z.B. Vitamin C, Ashwagandha, Magnesium)" class="w-full px-6 py-4 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent shadow-sm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Nach Kategorie -->
+            <h2 class="text-2xl font-bold text-slate-900 mb-8">Nach Kategorie</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+                
+                <a href="/de/wirkstoffe/vitamine/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-yellow-200 transition-colors">
+                        <span class="text-2xl">💊</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Vitamine</h3>
+                    <p class="text-sm text-slate-500">A, B-Komplex, C, D, E, K und mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">13 Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/mineralien/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors">
+                        <span class="text-2xl">💎</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Mineralien</h3>
+                    <p class="text-sm text-slate-500">Magnesium, Zink, Eisen, Calcium & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">25+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/aminoauren/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors">
+                        <span class="text-2xl">🧬</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Aminosäuren</h3>
+                    <p class="text-sm text-slate-500">BCAA, Glutamin, Tryptophan & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">20+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/fettsaeuren/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-cyan-200 transition-colors">
+                        <span class="text-2xl">🐟</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Fettsäuren</h3>
+                    <p class="text-sm text-slate-500">Omega-3, Omega-6, MCT & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">15+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/kraeuter/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors">
+                        <span class="text-2xl">🌿</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Kräuter & Pflanzen</h3>
+                    <p class="text-sm text-slate-500">Ashwagandha, Kurkuma, Ingwer & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">50+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/tcm/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-red-200 transition-colors">
+                        <span class="text-2xl">🌸</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">TCM (Trad. Chinesische Medizin)</h3>
+                    <p class="text-sm text-slate-500">Ginseng, Goji, Astragalus & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">30+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/ayurveda/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-orange-200 transition-colors">
+                        <span class="text-2xl">🧘</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Ayurveda</h3>
+                    <p class="text-sm text-slate-500">Ashwagandha, Brahmi, Triphala & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">25+ Wirkstoffe →</span>
+                </a>
+
+                <a href="/de/wirkstoffe/superfoods/" class="group bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-xl transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-200 transition-colors">
+                        <span class="text-2xl">🫐</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Superfoods</h3>
+                    <p class="text-sm text-slate-500">Chlorella, Spirulina, Maca & mehr</p>
+                    <span class="text-xs text-primary-600 font-medium mt-2 inline-block">40+ Wirkstoffe →</span>
+                </a>
+
+            </div>
+
+            <!-- Nach Körperzone -->
+            <h2 class="text-2xl font-bold text-slate-900 mb-8">Nach Körperzone</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
+                <a href="/de/wirkstoffe/herz-kreislauf/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">❤️</span>
+                    <span class="font-medium text-slate-900">Herz & Kreislauf</span>
+                </a>
+                <a href="/de/wirkstoffe/gehirn/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🧠</span>
+                    <span class="font-medium text-slate-900">Gehirn & Nerven</span>
+                </a>
+                <a href="/de/wirkstoffe/gelenke/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🦴</span>
+                    <span class="font-medium text-slate-900">Gelenke & Knochen</span>
+                </a>
+                <a href="/de/wirkstoffe/haut/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">✨</span>
+                    <span class="font-medium text-slate-900">Haut & Haare</span>
+                </a>
+                <a href="/de/wirkstoffe/augen/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">👁️</span>
+                    <span class="font-medium text-slate-900">Augen & Sehkraft</span>
+                </a>
+                <a href="/de/wirkstoffe/verdauung/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🍽️</span>
+                    <span class="font-medium text-slate-900">Verdauung & Darm</span>
+                </a>
+                <a href="/de/wirkstoffe/leber/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🫀</span>
+                    <span class="font-medium text-slate-900">Leber & Entgiftung</span>
+                </a>
+                <a href="/de/wirkstoffe/nieren/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">💧</span>
+                    <span class="font-medium text-slate-900">Nieren & Blase</span>
+                </a>
+            </div>
+
+            <!-- Nach Wirkweise -->
+            <h2 class="text-2xl font-bold text-slate-900 mb-8">Nach Wirkweise</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
+                <a href="/de/wirkstoffe/immunsystem/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🛡️</span>
+                    <span class="font-medium text-slate-900">Immunsystem stärken</span>
+                </a>
+                <a href="/de/wirkstoffe/energie/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">⚡</span>
+                    <span class="font-medium text-slate-900">Energie & Leistung</span>
+                </a>
+                <a href="/de/wirkstoffe/schlaf/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">😴</span>
+                    <span class="font-medium text-slate-900">Schlaf & Entspannung</span>
+                </a>
+                <a href="/de/wirkstoffe/hormone/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">⚖️</span>
+                    <span class="font-medium text-slate-900">Hormonbalance</span>
+                </a>
+                <a href="/de/wirkstoffe/entgiftung/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🌱</span>
+                    <span class="font-medium text-slate-900">Entgiftung & Ausleitung</span>
+                </a>
+                <a href="/de/wirkstoffe/antioxidantien/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">✨</span>
+                    <span class="font-medium text-slate-900">Antioxidantien</span>
+                </a>
+                <a href="/de/wirkstoffe/entzuendung/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🔥</span>
+                    <span class="font-medium text-slate-900">Entzündungshemmend</span>
+                </a>
+                <a href="/de/wirkstoffe/stoffwechsel/" class="flex items-center space-x-3 bg-white p-4 rounded-xl border border-slate-200 hover:border-primary-300 transition-colors">
+                    <span class="text-2xl">🔥</span>
+                    <span class="font-medium text-slate-900">Stoffwechsel & Gewicht</span>
+                </a>
+            </div>
+
+            <!-- Beliebte Wirkstoffe -->
+            <h2 class="text-2xl font-bold text-slate-900 mb-8">Beliebte Wirkstoffe</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <a href="/de/wirkstoffe/vitamin-c/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">🍊</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Vitamin C</h3>
+                            <p class="text-sm text-slate-500">Immunsystem, Kollagen, Antioxidans</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+                <a href="/de/wirkstoffe/ashwagandha/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">🌿</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Ashwagandha</h3>
+                            <p class="text-sm text-slate-500">Stress, Schlaf, Hormone</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+                <a href="/de/wirkstoffe/kurkuma/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">🧡</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Kurkuma (Curcumin)</h3>
+                            <p class="text-sm text-slate-500">Entzündung, Gelenke, Gehirn</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+                <a href="/de/wirkstoffe/zink/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">⚙️</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Zink</h3>
+                            <p class="text-sm text-slate-500">Immunsystem, Haut, Hormone</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+                <a href="/de/wirkstoffe/eisen/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">🩸</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Eisen</h3>
+                            <p class="text-sm text-slate-500">Blutbildung, Energie, Konzentration</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+                <a href="/de/wirkstoffe/ginseng/" class="flex items-center justify-between bg-white p-6 rounded-xl border border-slate-200 hover:shadow-lg transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
+                            <span class="text-xl">🌱</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900">Ginseng</h3>
+                            <p class="text-sm text-slate-500">Energie, Immunsystem, Libido</p>
+                        </div>
+                    </div>
+                    <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-200 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold text-slate-900">SuperHealth</span>
+                </div>
+                <div class="flex space-x-6 text-slate-500">
+                    <a href="/de/impressum/" class="hover:text-primary-600 transition-colors">Impressum</a>
+                    <a href="/de/datenschutz/" class="hover:text-primary-600 transition-colors">Datenschutz</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm text-slate-400">
+                © 2025 SuperHealth.expert – Wissenschaftlich fundierte Gesundheit
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
